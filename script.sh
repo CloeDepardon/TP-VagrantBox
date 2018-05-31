@@ -106,10 +106,10 @@ function vagrantRun {
 function vagrantSSH {
     echo -e "${COLOR}CONNEXION SSH EN COURS... ${NC}"
     sleep 1
-    echo -e "${COLOR}Une fois connecté, merci de faire un cd /var/www/html${NC}"
+    echo -e "${RED}Une fois connecté, merci de faire un cd /var/www/html${NC}"
     sleep 1
-    echo -e "${COLOR}Ensuite, veuillez éxécuter le script installation.sh ${NC}"
-    echo -e "${COLOR}( bash installation.sh ) ${NC}"
+    echo -e "${RED}Ensuite, veuillez éxécuter le script installation.sh ${NC}"
+    echo -e "${RED}(bash installation.sh) ${NC}"
     sleep 2
     vagrant ssh
 }
