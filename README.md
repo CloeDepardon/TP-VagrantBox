@@ -1,6 +1,7 @@
-# Script VagrantBox
+# Scripts VagrantBox
 
-Ces deux scripts (script.sh et installation.sh) sont à enregistrer au même endroit. 
+L'utilisation de ces scripts va permettre à l'utilisateur de créer et paramétrer sa machine virtuelle avec Vagrant.
+NB : script.sh et installation.sh sont à enregistrer au même endroit
 
 # script.sh
 
